@@ -4,8 +4,6 @@
 #|    Harold Abelson and Gerald Jay Sussman with Julie Sussman         |#
 #|    Modified by TRICK Winners and Judges                             |#
 
-; using Scheme
-
 (DEFINE SET_CAR! . (SET-CAR!))
 (DEFINE SET_CDR! . (SET-CDR!))
 (DEFINE EOF_OBJECT? . (EOF-OBJECT?))

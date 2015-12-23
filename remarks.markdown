@@ -6,9 +6,9 @@
 
 以下の実装/プラットフォームを用いて動作確認しています。
 
-* ruby 2.2.3p173 (2015-08-18 revision 51636) [x86\_64-linux]
-* ruby 2.1.7p400 (2015-08-18 revision 51632) [x86\_64-linux]
-* ruby 2.0.0p647 (2015-08-18 revision 51631) [x86\_64-linux]
+* ruby 2.2.4p230 (2015-12-16 revision 53155) [x86\_64-linux]
+* ruby 2.1.8p440 (2015-12-16 revision 53160) [x86\_64-linux]
+* ruby 2.0.0p648 (2015-12-16 revision 53162) [x86\_64-linux]
 * Gauche scheme shell, version 0.9.4 [utf-8,pthreads], x86\_64-unknown-linux-gnu
 
 ### Description

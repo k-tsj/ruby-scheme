@@ -3,7 +3,7 @@ def initialize x,y=(),o=0.!;super c(x),c(y),o;K.empty?&&(R.delete a;R.delete d
 R<<self)end;def-@;T[:-,self]end;alias == equal?;def call i;Scheme.t self,i end
 def to_a;[T[:*,self]]end;def c o;Array===o ?Scheme.l(o):o end;def each&b;b.(a)
 d&&d.each(&b)end},[],e=Struct.new(:t,:u){def[]=k,v;t[k]=v end;def[]i;t.fetch(i
-){u[i]}end},e[_h={}],[];def Object.const_missing i;i end;class::Fixnum;undef[]
+){u[i]}end},e[_={}],[];def Object.const_missing i;i end;class::Integer;undef[]
 def[]i;T[self,T[i],1]end end;          module A;def call *a;a.empty?? T[self]:
 Scheme.t(self,a[0])end;def-@;           T[:-,T[self]] end end;class::Array;def
 call a;T[self,T===a&&a.o ? a:            T[a],1]end end;class::Symbol;def*i;T[
@@ -28,7 +28,7 @@ l l.to_a.size APPLY f,*n,s f.(*(n+(s||[]).map.to_a)) SYMBOL? o Symbol===o READ
 l(l.map(&p)) NUMBER? o Numeric===o STRING? o String===o NOT o 0.!.==o ERROR *s
 fail(s*"\s") EOF-OBJECT? o o==() DISPLAY o puts(o) SET-CDR! p,o p.d=o SET-CAR!
 p,o p.a=o NULL? o o==() EQ? a,b a.equal?b * *s s.inject:* MIN *s s.min LIST *s
-l(s) CAR p p.a CDR p p.d).each_slice(3){|t|eval'_h[:"%s"]=->%s{%s}'%t}end;# |#
+l(s) CAR p p.a CDR p p.d).each_slice(3){|t|eval'_[:"%s"]=->%s{%s}'%t;}end;# |#
 
 (DEFINE (FACT N) . (
   (IF (EQ? N . (1)) . (
